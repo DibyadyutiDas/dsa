@@ -1,24 +1,44 @@
-# Security Policy
+# 🔐 Security Policy
 
-## Supported Versions
+## 📘 Overview
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This repository is a personal and public collection of code examples, practice problems, and mini-projects across multiple languages (C, C++, Java, DSA, JavaScript, Web, etc.). It is intended for **educational purposes only**.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+There are **no deployed services**, **no user data**, and **no backend logic** in this repository.
 
-## Reporting a Vulnerability
+---
 
-Use this section to tell people how to report a vulnerability.
+## 🛡️ Reporting Issues
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If you discover a security-related issue or vulnerability in any code:
+
+- Please **open an issue** describing the problem (if it's a logic flaw or potentially harmful pattern).
+- You can also email me at: `dibyadyutidas@gmail.com` if the concern should remain private initially.
+- I appreciate **responsible disclosure** and will review valid issues as soon as possible.
+
+---
+
+## 🔒 What’s Not Covered
+
+Since this repository:
+- Does **not run on a server**
+- Does **not collect user data**
+- Is not meant for **deployment to production**
+
+...there is **no formal vulnerability disclosure program** or patch schedule.
+
+---
+
+## ✅ Best Practices Encouraged
+
+If you’re contributing:
+- Avoid hardcoding sensitive data (tokens, passwords).
+- Follow standard coding conventions for security (e.g., input validation).
+- Don’t include compiled binaries (`.exe`, `.class`, `.out`).
+
+---
+
+> This is a learning-focused repository. Keep it clean, safe, and respectful for all contributors and learners.
 
 
 
