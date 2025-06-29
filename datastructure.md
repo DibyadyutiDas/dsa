@@ -1,42 +1,101 @@
-# Data Structures
+# 📚 Data Structures
 
-## Introduction
-Data structures are fundamental concepts in computer science that enable efficient storage, organization, and retrieval of data. They are essential for designing efficient algorithms and software.
+## 📌 Introduction
+Data structures are fundamental concepts in computer science that enable efficient storage, organization, and retrieval of data. They are essential for designing optimal algorithms and building scalable software.
 
-## Types of Data Structures
+---
 
-### 1. Arrays
-- **Definition**: A collection of elements identified by index or key.
-- **Characteristics**: Fixed size, elements of the same type.
-- **Operations**: Access, insertion, deletion, traversal.
+## 🧱 Types of Data Structures
 
-### 2. Linked Lists
-- **Definition**: A linear collection of elements, called nodes, where each node points to the next node.
-- **Types**: Singly linked list, doubly linked list, circular linked list.
-- **Operations**: Insertion, deletion, traversal.
+### 1. 📦 Arrays
+- **Definition**: A collection of elements identified by index.
+- **Characteristics**: Fixed size, elements are stored in contiguous memory.
+- **Operations**: 
+  - Access: `arr[i]`
+  - Insertion/Deletion: via index (may require shifting)
+  - Traversal: `for` loop or `forEach`
 
-### 3. Stacks
-- **Definition**: A collection of elements that follows the Last In, First Out (LIFO) principle.
-- **Operations**: Push (insert), pop (remove), peek (top element).
+---
 
-### 4. Queues
-- **Definition**: A collection of elements that follows the First In, First Out (FIFO) principle.
-- **Types**: Simple queue, circular queue, priority queue, deque.
-- **Operations**: Enqueue (insert), dequeue (remove), front (first element), rear (last element).
+### 2. 🔗 Linked Lists
+- **Definition**: A linear collection of elements (nodes), each pointing to the next.
+- **Types**:
+  - Singly Linked List
+  - Doubly Linked List
+  - Circular Linked List
+- **Operations**:
+  - Insertion/Deletion: at head, tail, or middle
+  - Traversal: using pointers
 
-### 5. Trees
-- **Definition**: A hierarchical structure consisting of nodes, with a single node as the root and sub-nodes as children.
-- **Types**: Binary tree, binary search tree, AVL tree, B-tree, heap.
-- **Operations**: Insertion, deletion, traversal (in-order, pre-order, post-order).
+---
 
-### 6. Graphs
-- **Definition**: A collection of nodes (vertices) connected by edges.
-- **Types**: Directed graph, undirected graph, weighted graph, unweighted graph.
-- **Operations**: Traversal (BFS, DFS), shortest path, connectivity.
+### 3. 🥞 Stacks
+- **Definition**: Follows **LIFO** (Last In, First Out).
+- **Operations**:
+  - `push()` – Add to top
+  - `pop()` – Remove top
+  - `peek()` – View top without removing
 
-### 7. Hash Tables
-- **Definition**: A data structure that maps keys to values using a hash function.
-- **Operations**: Insertion, deletion, search.
+---
 
-## Conclusion
-Understanding and implementing data structures is crucial for solving complex problems efficiently. Each data structure has its own strengths and weaknesses, and the choice of data structure depends on the specific requirements of the application.
+### 4. 🚦 Queues
+- **Definition**: Follows **FIFO** (First In, First Out).
+- **Types**:
+  - Simple Queue
+  - Circular Queue
+  - Priority Queue
+  - Deque (Double-Ended Queue)
+- **Operations**:
+  - `enqueue()` – Add to rear
+  - `dequeue()` – Remove from front
+  - `front()` – Peek first element
+  - `rear()` – Peek last element
+
+---
+
+### 5. 🌳 Trees
+- **Definition**: Hierarchical structure of nodes with one root node.
+- **Types**:
+  - Binary Tree
+  - Binary Search Tree (BST)
+  - AVL Tree
+  - B-Tree
+  - Heap (Min/Max)
+- **Operations**:
+  - Insertion
+  - Deletion
+  - Traversals:
+    - In-Order (LNR)
+    - Pre-Order (NLR)
+    - Post-Order (LRN)
+    - Level-Order
+
+---
+
+### 6. 🔗 Graphs
+- **Definition**: A set of nodes (vertices) connected by edges.
+- **Types**:
+  - Directed / Undirected
+  - Weighted / Unweighted
+  - Cyclic / Acyclic
+- **Operations**:
+  - Traversals: BFS (Breadth-First), DFS (Depth-First)
+  - Shortest Path: Dijkstra, Bellman-Ford
+  - Cycle Detection, Connectivity
+
+---
+
+### 7. #️⃣ Hash Tables
+- **Definition**: Maps keys to values using a **hash function**.
+- **Characteristics**:
+  - Fast average time complexity for search, insert, delete: `O(1)`
+  - Handle collisions via chaining or open addressing
+- **Operations**:
+  - `put(key, value)`
+  - `get(key)`
+  - `remove(key)`
+
+---
+
+## 🧠 Conclusion
+Mastering data structures is key to solving complex computational problems efficiently. The right data structure depends on the specific needs of your application, balancing trade-offs in speed, memory, and complexity.

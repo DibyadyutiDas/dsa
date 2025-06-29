@@ -1,36 +1,42 @@
-Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
+# 🔐 Security Policy
 
-# 🙌 Contributing Guide: Code Practice Repository
+## 📘 Overview
 
-Welcome to this collection of code repositories maintained by Dibyadyuti Das!  
-Whether you're exploring DSA this space is designed to help learners **practice, organize, and grow together**.
+This repository is a personal and public collection of code examples, practice problems, and mainly data structures and algorithms (DSA) concepts across c++ languages. It is intended for **educational purposes only**.
 
----
-
-## 📁 Folder Structure (varies by repo)
-
-Each repository is organized by **language** and **concept**. For example:
-
+There are **no deployed services**, **no user data**, and **no backend logic** in this repository.
 
 ---
 
-## 🧾 Coding Standards
+## 🛡️ Reporting Issues
 
-- ✅ Use the correct **file extension**:
-  - `.c` for C
-  - `.cpp` for C++
-- ✅ Keep one **main function** per file unless it's a utility.
-- ✅ Add **comments** to explain logic.
-- ✅ Keep indentation and naming consistent.
-- ❌ Don’t upload:
-  - `.exe`, `.class`, `.o`, `.DS_Store`, or other build artifacts
-  - Output screenshots or test files unless needed
+If you discover a security-related issue or vulnerability in any code:
+
+- Please **open an issue** describing the problem (if it's a logic flaw or potentially harmful pattern).
+- You can also email me at: `dibyadyutidas@gmail.com` if the concern should remain private initially.
+- I appreciate **responsible disclosure** and will review valid issues as soon as possible.
 
 ---
 
-## 🔁 How to Contribute
+## 🔒 What’s Not Covered
 
-1. **Fork** the repo.
-2. **Clone** your fork:
-   ```bash
-   git clone https://github.com/DibyadyutiDas/dsa.git
+Since this repository:
+- Does **not run on a server**
+- Does **not collect user data**
+- Is not meant for **deployment to production**
+
+...there is **no formal vulnerability disclosure program** or patch schedule.
+
+---
+
+## ✅ Best Practices Encouraged
+
+If you’re contributing:
+- Avoid hardcoding sensitive data (tokens, passwords).
+- Follow standard coding conventions for security (e.g., input validation).
+- Don’t include compiled binaries (`.exe`, `.class`, `.out`).
+
+---
+
+> This is a learning-focused repository. Keep it clean, safe, and respectful for all contributors and learners.
+
